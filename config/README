@@ -1,0 +1,7 @@
+# get data from wikimedia
+
+connect-standalone.sh connect-standalone.properties wikimedia.properties
+
+# get data form our producer into ElasticSearch
+
+connect-standalone.sh connect-standalone.properties elasticsearch.properties
